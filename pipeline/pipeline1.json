@@ -24,6 +24,7 @@
 					],
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings",
+						"recursive": true,
 						"enablePartitionDiscovery": false
 					},
 					"formatSettings": {
@@ -72,6 +73,8 @@
 				"type": "String"
 			}
 		},
-		"annotations": []
+		"annotations": [
+			"json"
+		]
 	}
 }
